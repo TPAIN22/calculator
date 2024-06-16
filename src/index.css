@@ -4,6 +4,7 @@
 
 :root{
     --Very-dark-cyan: hsl(183, 100%, 15%);
+    --Ver-dark-cyan: hsl(183, 95%, 22%);
     --Dark-grayish-cyan: hsl(186, 14%, 43%);
     --Grayish-cyan: hsl(184, 14%, 56%);
     --Light-grayish-cyan: hsl(185, 41%, 84%);
@@ -11,8 +12,16 @@
     --White: hsl(0, 0%, 100%);
     --Strong-cyan: hsl(172, 67%, 45%);
 }
+.space-mono-bold {
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
+  }
 
 body{
+    font-family: "Space Mono", monospace;
+    font-weight: 700;
+    font-style: normal;
     height: 100vh;
     background-color: var(--Light-grayish-cyan);
     display: flex;
